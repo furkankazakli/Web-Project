@@ -2,7 +2,7 @@
 import React from 'react'
 import image from  '../src/images/logo2.png';
 import { BrowserRouter as Router,Routes, Route, Link } from 'react-router-dom';
-import shop from '../src/components/shop';
+
 
 function Title() {
   return (
