@@ -1,3 +1,17 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
 .App {
   text-align: center;
 }
@@ -13,17 +27,29 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
+.Title {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  padding: 1em;
+  margin-bottom: 2em;
+  background-color: rgb(72, 11, 163);
+  color: #fff;
+  
+
+}
+.Title >h1{
+  margin-left: 10px;
+  font-size: 50px;
+  font-family:'Times New Roman', Times, serif;
+}
+.l1{
+  margin: 10px;
+  height: 90px;
+}
 .App-link {
   color: #61dafb;
 }
@@ -35,4 +61,65 @@
   to {
     transform: rotate(360deg);
   }
+}
+.POPOSSpace {
+  width: 100%;
+  text-align: center;
+
+}
+
+.POPOSSpace > img {
+  width: 100%;
+  height: auto;
+}
+
+
+
+.b1 {
+  
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  padding: 3px;
+  margin-left: 50px;
+}
+
+.b1:active,
+.b1:hover {
+  outline: 0;
+}
+
+.b1 span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+.b1:hover span {
+  background: none;
+}
+
+@media (min-width: 768px) {
+  .b1 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+
+.POPOSList {
+  width: calc(100% - 80px);
+  margin: auto;
+  display: flex;
+ justify-content: center;
+align-items: center;
 }
